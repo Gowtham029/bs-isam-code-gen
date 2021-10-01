@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { SequelizeModule } from '@nestjs/sequelize';
 
 import { BaseModule } from '../../../common/BaseModule';
-import { <%= kebabToPascal(config.name) %>Controller } from './<%= (config.name) %>.controller';
+import { <%= kebabToPascal(config.name) %>Controller } from './<%= (config.name) %>s.controller';
 import { <%= kebabToPascal(config.name) %>Model } from './<%= (config.name) %>s.model';
 import { <%= kebabToPascal(config.name) %>Repository } from './<%= (config.name) %>s.repository';
 import { <%= kebabToPascal(config.name) %>Resolver } from './<%= (config.name) %>s.resolver';

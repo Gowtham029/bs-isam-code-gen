@@ -13,9 +13,9 @@ import { <%= kebabToPascal(config.name) %>CreateDTO } from './dtos/<%= (config.n
 import {
   <%= kebabToConstant(config.name) %>_ALREADY_EXISTS,
   <%= kebabToConstant(config.name) %>_NOT_FOUND,
-} from './<%= (config.name) %>.constants';
-import { <%= kebabToPascal(config.name) %>, <%= kebabToPascal(config.name) %>PatchProps } from './<%= (config.name) %>.entity';
-import { <%= kebabToPascal(config.name) %>Repository } from './<%= (config.name) %>.repository';
+} from './<%= (config.name) %>s.constants';
+import { <%= kebabToPascal(config.name) %>, <%= kebabToPascal(config.name) %>PatchProps } from './<%= (config.name) %>s.entity';
+import { <%= kebabToPascal(config.name) %>Repository } from './<%= (config.name) %>s.repository';
 import { <%= kebabToPascal(config.name) %>Props } from './<%= (config.name) %>s.entity';
 
 @Injectable()

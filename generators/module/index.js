@@ -104,7 +104,7 @@ module.exports = class extends Generator {
 
         // Constantants
         this.fs.copyTpl(this.templatePath(moduleType + '/templates/templates.constants.ts'),
-          this.destinationPath(`src/access-management/resources/${name}s/${name}.constants.ts`), templateOptions)
+          this.destinationPath(`src/access-management/resources/${name}s/${name}s.constants.ts`), templateOptions)
 
         // Controller
         this.fs.copyTpl(this.templatePath(moduleType + '/templates/templates.controller.ts'),
