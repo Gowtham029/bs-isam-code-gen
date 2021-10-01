@@ -1,0 +1,46 @@
+{
+  "name": "generator-nestjs-app",
+  "version": "0.1.2",
+  "description": "A yeoman generator for nestjs apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashinzekene/generator-nestjs-app.git"
+  },
+  "files": [
+    "generators",
+    "scripts",
+    "utils"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "yeoman",
+    "generator",
+    "nestjs",
+    "angular",
+    "nodejs",
+    "typescript",
+    "microservices",
+    "express",
+    "typeorm",
+    "sequelize",
+    "mongogb",
+    "mongoose",
+    "graphql",
+    "apollo"
+  ],
+  "author": "Ashinze Ekene",
+  "bugs": {
+    "url": "https://github.com/ashinzekene/generator-nestjs-app/issues"
+  },
+  "homepage": "https://github.com/ashinzekene/generator-nestjs-app#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "yeoman-generator": "^1.0.0",
+    "yosay": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  }
+}

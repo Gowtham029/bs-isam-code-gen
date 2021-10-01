@@ -1,0 +1,11 @@
+
+
+Description:
+    Bootstraps a NestJS app for you depending on the options you select.
+
+Example:
+    yo nestjs
+
+    This will create:
+        All the necessary files need to run your NestJS scaffolded app.
+        

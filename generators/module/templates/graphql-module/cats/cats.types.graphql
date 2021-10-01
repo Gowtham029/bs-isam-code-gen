@@ -1,0 +1,16 @@
+type Query {
+  get<%= kebabToPascal(config.name) %>s: [<%= kebabToPascal(config.name) %>]
+  <%= kebabToCamel(config.name) %>(id: ID!): <%= kebabToPascal(config.name) %>
+  <%= kebabToCamel(config.name) %>ByHumanId(id: ID!): <%= kebabToPascal(config.name) %>
+}
+
+type Mutation {
+  create<%= kebabToPascal(config.name) %>(name: String): <%= kebabToPascal(config.name) %>
+}
+
+type <%= kebabToPascal(config.name) %> {
+  id: Int
+  name: String
+  age: Int
+  humanId: Int
+}

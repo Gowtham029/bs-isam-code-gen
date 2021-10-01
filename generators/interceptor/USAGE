@@ -1,0 +1,14 @@
+
+
+Description:
+    Creates a minimalistic NESTJS interceptor
+
+Example:
+    yo nestjs:interceptor NAME
+
+    - NAME - OPTIONAL - the name of the module (use kebab-case)
+
+    This will create:
+        `/src/modules/common/${NAME}.interceptor.ts`
+        
+
